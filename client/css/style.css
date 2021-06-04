@@ -1,0 +1,43 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.dashboard h1 {
+    margin-top: 10px;
+}
+
+.dashboard1 {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100%;
+}
+
+.dashboard1 .table {
+    flex: 8;
+    overflow: scroll;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 10px rgba(80, 37, 37, 0.1), -4px -4px 10px rgba(122, 122, 122, 0.2);
+}
+
+.dashboard1 .dataCards {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.dashboard1 .dataCards .card1,
+.card2,
+.card3 {
+    height: 100px;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(80, 37, 37, 0.1), -4px -4px 10px rgba(122, 122, 122, 0.2);
+    text-align: center;
+}
