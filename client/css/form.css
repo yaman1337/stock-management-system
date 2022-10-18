@@ -1,0 +1,29 @@
+.container2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    height: 550px;
+    width: 400px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 10px rgba(80, 37, 37, 0.1), -4px -4px 10px rgba(122, 122, 122, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 30px !important;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 350px;
+}
