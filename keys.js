@@ -1,4 +1,4 @@
 module.exports = {
-    db_url: "mongodb://localhost:27017/sms",
-    PORT: 9000
+    db_url: "PUT YOUR MONGODB URL HERE",
+    PORT: "YOUR PORT NUMBER"
 };
